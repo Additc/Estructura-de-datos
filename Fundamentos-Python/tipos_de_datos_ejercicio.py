@@ -5,7 +5,7 @@ Descripción:
 ejercicio formativo de tipo de datos
 '''
 
-dia="lunes"
+dia="lunes" #En este apartado del codigo realizamos la declaración de las variables
 pasaje=20
 comida= 135.5
 otros_gastos=34.5
