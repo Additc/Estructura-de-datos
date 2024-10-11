@@ -1,5 +1,8 @@
-#Addi Toro Chavez
-#8 de octubre del 2024
-#introduccion al lenguaje de programacion python
+'''
+Addi Toro Chavez
+9 de octubre de 2024.
+Descripción:
+Ejercicio de primera clase, de introducción al lenguaje de programación python
+'''
 
-print("hola mundo") # esta funcion (print) muestra en pantalla hola mundo
+print("hola mundo") # esta función (print) muestra en pantalla hola mundo.
