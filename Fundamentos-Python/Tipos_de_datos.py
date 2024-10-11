@@ -18,20 +18,22 @@ Los valores básicos que pueden almacenar las variables son:
 
 # Ejemplos de tipos de datos.
 
-# Número entero
+# Se declara la variable con un número entero
 mi_variable_entera = -100
-print("Tipo de dato entero:",mi_variable_entera)
+print("Tipo de dato entero:",mi_variable_entera) # Muestra en pantalla el valor asignado a la variable.
 
 # Número decimal
-mi_variable_decimal = 12.12
-print("Tipo de dato decimal:", mi_variable_decimal)
+mi_variable_decimal = 12.12 # Se declara uma nueva variable con un número decimal.
+print("Tipo de dato decimal:", mi_variable_decimal) # Muestra pantalla el valor asignado a esa variable.
 
 # Cadena de texto
+# Declaración de variables asignandole un nombre específico
 mi_variable_texto_nombre = "Alberto"
 mi_variable_texto_apellido = 'Martinez'
-print("Cadena de texto:", mi_variable_texto_nombre, mi_variable_texto_apellido)
+print("Cadena de texto:", mi_variable_texto_nombre, mi_variable_texto_apellido) # Imprime ambas variables
 
 # Booleno
+# Declaración de variable booleana asignando el valor de True(verdadero).
 mi_variable_booleana = True
 print('Tipo booleano:', mi_variable_booleana)
 
@@ -49,4 +51,4 @@ VARIABLE_CONSTANTE = 3.1416
 print("Ejemplo de convención de una constante:", VARIABLE_CONSTANTE)
 
 print("Addi")
-print("hector")
+
