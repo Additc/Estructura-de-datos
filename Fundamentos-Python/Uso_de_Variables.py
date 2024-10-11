@@ -73,4 +73,5 @@ print()
 print("Las variables son sensibles a mayúsculas y minúsculas:")
 print("Variable nombre:", nombre)
 print("Variable Nombre:", Nombre)
-print("Variable NOMBRE:", NOMBRE)
+print("Variable NOMBRE:", nombre)
+
