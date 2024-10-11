@@ -5,4 +5,4 @@ Descripción:
 Ejercicio de primera clase, de introducción al lenguaje de programación python
 '''
 
-print("hola mundo") # esta función (print) muestra en pantalla hola mundo.
+print("hola mundo") # En esta función (print) muestra en pantalla hola mundo.

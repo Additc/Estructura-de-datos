@@ -2,7 +2,7 @@
 Addi Toro Chavez
 9 de octubre de 2024.
 Descripción:
-Usos de los diferentes tipos básico de datos en Python.
+Usos de los diferentes tipos de valiables básicos de datos en Python.
 '''
 
 # Toda variable requiere un valor inicial
