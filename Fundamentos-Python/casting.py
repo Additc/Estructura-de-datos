@@ -4,6 +4,7 @@ Addi Toro Chavez
 Descripción:
 Ejercicio de casting perteneciente a la tercera clase, de introducción al lenguaje de programación python
 '''
+from unittest.util import strclass
 
 # Notas
 '''
@@ -66,3 +67,5 @@ print(f"¿El valor de {var_cadena} es verdadero? {es_verdadero}.")
 var_cadena = " "
 es_verdadero = bool(var_cadena)
 print(f"¿El valor de {var_cadena} es verdadero? {es_verdadero}.")
+
+numero.=1.2.
