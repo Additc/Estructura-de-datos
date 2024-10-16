@@ -2,7 +2,7 @@
 Addi Toro Chavez
 15 de octubre de 2024.
 Descripción:
-Ejercicio de primera clase, de introducción al lenguaje de programación python
+Ejercicio de operadores aritméticos en python
 '''
 #operadoress aritméticos
 número1=int(input("ingrese el primer número entero: "))

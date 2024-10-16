@@ -2,7 +2,7 @@
 Addi Toro Chavez
 15 de octubre de 2024.
 Descripción:
-Ejercicio de primera clase, de introducción al lenguaje de programación python
+Ejercicio de operadores de asignación en python
 '''
 # Ejemplo de asignación múltiple
 num1,num2=5,10 # asignación de los valores

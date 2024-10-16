@@ -11,7 +11,7 @@ from unittest.util import strclass
 La conversión de tipos de datos implica manipular datos que no están en el tipo de dato requerido. Ejemplos:
 de cadena a entero, de cadena a número flotante, y viceversa.
 '''
-}
+
 # *****   Conversión de cadena a entero     *****
 var_cadena = "951"
 var_int = int(var_cadena)
@@ -68,4 +68,3 @@ var_cadena = " "
 es_verdadero = bool(var_cadena)
 print(f"¿El valor de {var_cadena} es verdadero? {es_verdadero}.")
 
-numero.=1.2.
