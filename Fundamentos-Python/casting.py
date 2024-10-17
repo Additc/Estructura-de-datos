@@ -4,14 +4,13 @@ Addi Toro Chavez
 Descripción:
 Ejercicio de casting perteneciente a la tercera clase, de introducción al lenguaje de programación python
 '''
-from unittest.util import strclass
 
 # Notas
 '''
 La conversión de tipos de datos implica manipular datos que no están en el tipo de dato requerido. Ejemplos:
 de cadena a entero, de cadena a número flotante, y viceversa.
 '''
-
+}
 # *****   Conversión de cadena a entero     *****
 var_cadena = "951"
 var_int = int(var_cadena)
@@ -44,14 +43,14 @@ print(f"Los números {var_int} y {var_float} se convierten a cadena utilizando s
 print()
 print("Conversión a booleanos.")
 
-var_int = 0
+var_int = 0 #creamos un variable entera y le asignamos un valor.
+es_verdadero = bool(var_int)# creamos una nueva variable donde guardará el resultado de la conidición, en este caso (verdadero o falso).
+print(f"¿El valor de {var_int} es verdadero? {es_verdadero}.") # muestra en pantalla el valor y si es true o false.
+var_int = -30 # ahora al valor entero le asignamos un nuevo valor, en este caso negativo.
 es_verdadero = bool(var_int)
-print(f"¿El valor de {var_int} es verdadero? {es_verdadero}.")
-var_int = -30
-es_verdadero = bool(var_int)
-print(f"¿El valor de {var_int} es verdadero? {es_verdadero}.")
+print(f"¿El valor de {var_int} es verdadero? {es_verdadero}.") # muestra en pantalla el valor que bool arroja.
 
-var_float = 0.0
+var_float = 0.0 # se crea una nueva cadena para asignarle un valor flotante
 es_verdadero = bool(var_float)
 print(f"¿El valor de {var_float} es verdadero? {es_verdadero}.")
 var_float = 0.01
@@ -67,4 +66,3 @@ print(f"¿El valor de {var_cadena} es verdadero? {es_verdadero}.")
 var_cadena = " "
 es_verdadero = bool(var_cadena)
 print(f"¿El valor de {var_cadena} es verdadero? {es_verdadero}.")
-

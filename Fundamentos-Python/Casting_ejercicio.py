@@ -4,12 +4,6 @@ Addi Toro Chavez
 Descripción:
 ejercicio formativo de tipo de datos
 '''
-'''
-Addi Toro Chavez
-9 de octubre de 2024.
-Descripción:
-ejercicio formativo de tipo de datos
-'''
 """"
 Addi Toro Chavez
 10 de octubre de 2024.
@@ -44,7 +38,7 @@ print(f"Los números {var_int},{var_int1} y {var_float} se convierten a cadena u
 print()
 
 # b) Indicando  el booleano de  los valores anteriores:
-# Verificación de booleano en los valores (true,false)
+# Verificación de booleano en los valores (true,false) 
 
 es_verdadero = bool(var_int)
 print(f"¿El valor de {var_int} es verdadero? {es_verdadero}.")
@@ -84,5 +78,5 @@ print(f"¿El valor de {var_int1} es verdadero? {es_verdadero}.")
 es_verdadero = bool(var_cadena2)
 print(f"¿El valor de {var_cadena2} es verdadero? {es_verdadero}.")
 
-# Es considerado verdadero por que en este caso el tipo de dato es cadena y en caso contrario, si el tipo de dato fuera entero fuera falso
+# Es considerado verdadero por que en este caso el tipo de dato es cadena y en caso contrario, si el tipo de dato fuera entero fuera falso 
 print("addi")
