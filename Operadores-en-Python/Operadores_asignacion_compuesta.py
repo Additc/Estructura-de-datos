@@ -23,4 +23,4 @@ numero1 -= numero2
 numero1 +=3
 numero1/=2
 print("el resultado es: ",numero1)
-print("addi")
+
