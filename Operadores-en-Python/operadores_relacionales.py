@@ -4,7 +4,13 @@ Addi Toro Chavez
 Descripción:
 Ejercicio de operadores relacionales en python
 '''
-numero1,numero2=float(input("ingresa numero1: ")),float(input("ingresa numero2: ")) # ingresamos 2 números
+numero1,numero2=float(input("ingresa numero1: ")),float(input("ingresa numero2: ")) # ingresamos 2 números de tipo flotante
+
+#Existen varios operadores relaciones, en este programa se mostrara la funcion de los siguientes:
+#(< y >) Menor y mayor que.
+# (<= y>=) Menor igual y mayor igual que.
+# (==) Igual igual que.
+# (!=) Diferente que.
 
 print(f"¿El numero {(numero1):.2f} es mayor que {(numero2):.2f} ?{numero1>numero2}")
 print(f"¿El numero {(numero1):.2f} es mayor o igual que {(numero2):.2f} ?{numero1>=numero2}")
