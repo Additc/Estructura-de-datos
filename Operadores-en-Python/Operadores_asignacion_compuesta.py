@@ -4,7 +4,7 @@ Addi Toro Chavez
 Descripción:
 Ejercicio de operadores de asignación compuesta en python
 '''
-# Asignación compuesta
+# Asignación compuesta en python.
 numero1,numero2=int(input("ingresa numero1: ")),int(input("ingresa numero2: ")) # Ingresamos 2 números.
 numero1+=3 # numero1 = numero1 + 3
 print("suma: ",numero1) # Se muestra en pantalla el resultado obtenido.
