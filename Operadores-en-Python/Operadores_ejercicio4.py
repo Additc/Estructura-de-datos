@@ -11,7 +11,7 @@ b) Obtenga el resultado de la expresión booleana de acuerdo con los valores ing
 c) Muestre el resultado en consola como valor booleano (True/False).
 '''
 
-#Pedimos al usuario los valores booleanos (verdadero,falso)
+#Pedimos al usuario que ingrese los valores booleanos (verdadero,falso)
 exp1=input("Ingrese el valor booleano (V,F): ")
 exp2=input("Ingrese el valor booleano (V,F): ")
 exp3=input("Ingrese el valor booleano (V,F): ")
