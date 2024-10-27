@@ -12,9 +12,10 @@ numero1,numero2=float(input("ingresa numero1: ")),float(input("ingresa numero2: 
 # (==) Igual igual que.
 # (!=) Diferente que.
 
-print(f"¿El numero {(numero1):.2f} es mayor que {(numero2):.2f} ?{numero1>numero2}")
-print(f"¿El numero {(numero1):.2f} es mayor o igual que {(numero2):.2f} ?{numero1>=numero2}")
-print(f"¿El numero {(numero1):.2f} es igual al numero {(numero2):.2f} ?{numero1==numero2}")
-print(f"¿El numero {(numero1):.2f} es menor que {(numero2):.2f} ?{numero1<numero2}")
-print(f"¿El numero {(numero1):.2f} es menor o igual que {(numero2):.2f}?{numero1<=numero2}")
-print(f"¿El numero {(numero1):.2f} es diferente que {(numero2):.2f} ?{numero1!=numero2}")
+# Muestra en pantalla si es verdadero o falso las siguientes comparaciones.
+print(f"¿El numero {(numero1):.2f} es mayor que {(numero2):.2f} ?{numero1>numero2}") # Comparación, si el primer número es mayor que el segundo número.
+print(f"¿El numero {(numero1):.2f} es mayor o igual que {(numero2):.2f} ?{numero1>=numero2}") # Comparación, si el primer número es mayor o igual que el segundo número.
+print(f"¿El numero {(numero1):.2f} es igual al numero {(numero2):.2f} ?{numero1==numero2}") # Comparación, si el primer número es igual igual que el segundo número.
+print(f"¿El numero {(numero1):.2f} es menor que {(numero2):.2f} ?{numero1<numero2}") # Comparación, si el primer número es menor que el segundo número.
+print(f"¿El numero {(numero1):.2f} es menor o igual que {(numero2):.2f}?{numero1<=numero2}") # Comparación, si el primer número es menor o igual que el segundo número.
+print(f"¿El numero {(numero1):.2f} es diferente que {(numero2):.2f} ?{numero1!=numero2}") # Comparación, si el primer número es diferente que el segundo número.
