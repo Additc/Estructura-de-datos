@@ -22,6 +22,6 @@ contraseña="2005"
 usuario2=input("ingrese el nombre de usuario: ")
 contraseña2=input("ingrese su contraseña: ")
 
-# Realizamos la comparación y mostramos en pantalla.
+# Realizamos la comparación de las cadenas y mostramos en pantalla.
 print(f"El acceso es correcto: {usuario==usuario2 and contraseña==contraseña2}")
 
