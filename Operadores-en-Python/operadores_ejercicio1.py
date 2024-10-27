@@ -8,5 +8,5 @@ Ejercicio número 1 python
 compra=float(input("ingrese la cantidad de compra: "))
 expresion1=input("¿compras a meses sin intereses? si/no: ")
 expresion1 = expresion1.lower() == "si" # condicion para devolver true o false
-print(f"¿Aplica bonificación?{ compra >= 5000 and expresion1}") # comparación de la cantidad con la expresión
+print(f"¿Aplica bonificación?{ compra >= 5000 and expresion1}") # Muestra en panta el resultado de la comparación de la cantidad con la expresión.
 
