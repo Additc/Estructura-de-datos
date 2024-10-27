@@ -4,7 +4,7 @@ Addi Toro Chavez
 Descripción:
 Ejercicio de operadores de asignación en python
 '''
-# Ejemplo de asignación múltiple
+# Ejemplo de asignación múltiple en python.
 num1,num2=5,10 # Asignación de los valores.
 num3,num4=9.14,"chay" # Asignación de un valor fotante y una cadena.
 print(num1,num2,num3,num4) # Se muestra en pantalla los datos
