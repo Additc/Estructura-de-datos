@@ -4,7 +4,7 @@ Addi Toro Chavez
 Descripción:
 Clase de operadores aritméticos en python.
 '''
-#operadores aritméticos
+#operadores aritméticos en python.
 número1=int(input("ingrese el primer número entero: ")) # Ingresamos un número de tipo entero.
 número2= int(input("ingrese el segundo número entero: ")) # Ingresamos un segundo número entero.
 
