@@ -1,5 +1,5 @@
 '''
-Nombre: Addi Toro Chávez
+Nombre: Addi Toro Chávez.
 Fecha: 28 de Octubre de 2024
 Descripción:
 Ejercicio 1 de ciclo while en python
