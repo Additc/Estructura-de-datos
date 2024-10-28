@@ -4,7 +4,7 @@ Fecha: 28 de Octubre de 2024
 Descripción:
 Ciclo while en python
 '''
-# programa que imprimer un ejemplo del ciclo while
+# programa que imprimer un ejemplo del ciclo while en python
 numero=int(input("ingrese un numero: "))
 contador = 1
 while contador<= numero:
