@@ -5,7 +5,7 @@ Descripción:
 Sentencia de condición if else if else en python
 '''
 
-#Programa que determine elgrupo de edad al que pertenece
+#Programa que determina el grupo de edad al que pertenece
 
 edad=int(input("Ingrese la edad que tiene: "))# Se ingresa la edad.
 if edad <= 14 :# Se establece la primer condición de una determinada edad.
