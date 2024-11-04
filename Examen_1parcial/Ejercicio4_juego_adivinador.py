@@ -31,5 +31,5 @@ while numero_intento <= 5: # Establezco una condición que marcará el límite d
         print(f"Felicidades adivinaste en: {numero_intento} intentos") # Si el ususario adivina el número, se muestra en pantalla el número de intentos en el que lo logró.
         break
     if numero_intento == 6:
-        print(f"Perdiste. El numero era: {CPU}") # Si no adivina el número en 5 intentos, le muestra el resultado.
+        print(f"Perdiste. El numero era: {CPU}") # Si no adivina el número en 5 intentos, le muestra el resultado en pantalla.
         break

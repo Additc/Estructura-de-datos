@@ -70,5 +70,5 @@ while op != 0:
 #inicializamos nuestra opción en 1 y mostramos en pantalla el menú de opciones.
 #De acuerdo a la opción que el usuario seleccione establecí las condiciones necesarias.
 # Posteriormente pedí que ingresara los datos correspondientes.
-# Y por último lo que el ususario decidio calcular, implemento la lógica para obtener el resultado y lo muestro en pantalla.
+# Y por último lo que el ususario decidio calcular, implemento la lógica para obtener el resultado y lo muestro en pantalla .
 

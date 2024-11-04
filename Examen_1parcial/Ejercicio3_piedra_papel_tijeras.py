@@ -57,7 +57,7 @@ while opcion != 0:
     else:
          player = "Tijera"
 
-# Realizo la lógica con las distintas condiciones y comparaciones para determinar al ganador y si en dado caso empataron
+# Realizo la lógica con las distintas condiciones y comparaciones para determinar al ganador y si en dado caso empataron.
     if CPU_op == opcion:
         partidos_empatados +=1
         print(f"Jugador: {player}, CPU: {CPU}, el resultado es empate.")
