@@ -29,5 +29,5 @@ while contador <= numero_final: # Establecemos la condición, mientras que el co
             print("informática",end=", ")# Si se cumple el caso se mostrará en pantalla informática
         else:
          print(contador,end=", ")# Si ninguna de las condiciones se cumple se muestra el contador en pantalla o el número.
-        contador += 1 # Aumentamos contador.
+        contador += 1 # Aumentamos contador
 
