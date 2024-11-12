@@ -29,20 +29,22 @@ print(alumnos)
 
 print()
 #listas alumnos 303
-alumnos=["addi,alberto,bryan,rebeca,juan,duran,rosa,jenni,tania,hector,paty"]
+alumnos=["addi","alberto","bryan","rebeca","juan","duran","rosa","jenni","tania","hector","paty","Galilea"]
 print(alumnos)
 print()
 
-#funcion len
-len(alumnos)
-print(alumnos)
+#funcion len, cuenta los caracteres que hay
+print("")
+caracteres= len(alumnos)
+print(caracteres)
 print()
 
 #funcion sort, ordena alfabeticamente
 alumnos.sort()
 print(alumnos)
+print()
 
-#funcion sort reverse=true
+#funcion sort reverse=true, invierte el orden
 alumnos.sort(reverse=True)
 print(alumnos)
 
