@@ -38,11 +38,10 @@ def añadir_video(videos_youtube):
     print(videos_youtube, end=" ")
 
 def añadir_varios(videos_youtube):
-    numero_videos=int(input("ingrese la cantidad de videos que desea agregar: "))
-    numero_videos.append()
-    for k range numero_videos:
-        input("ingrese nombre del video: ")
-
+    n=int(input("ingrese la cantidad de videos que desea agregar: "))
+    for i in  range(n):
+        nombre_video=input("ingrese nombre del video: ")
+        videos_youtube.append(nombre_video)
     return videos_youtube
 
 def eliminar(videos_youtube):
