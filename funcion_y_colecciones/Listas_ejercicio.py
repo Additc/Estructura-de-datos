@@ -4,6 +4,8 @@ Fecha: 12 de noviembre del 2024
 Descripción:
 Listas ejercicio
 """
+from defer import return_value
+
 videos_youtube=[ ]
 
 #Función de menú
@@ -36,6 +38,12 @@ def añadir_video(videos_youtube):
     print(videos_youtube, end=" ")
 
 def añadir_varios(videos_youtube):
+    numero_videos=int(input("ingrese la cantidad de videos que desea agregar: "))
+    numero_videos.append()
+    for k range numero_videos:
+        input("ingrese nombre del video: ")
+
+    return videos_youtube
 
 def eliminar(videos_youtube):
     pos= int(input("inserte el número de la pocisión que desea eliminar: "))
