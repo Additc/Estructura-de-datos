@@ -4,10 +4,9 @@ Fecha: 12 de noviembre del 2024
 Descripción:
 Listas ejercicio
 """
-from defer import return_value
 
 videos_youtube=[ ]
-
+contador =0
 #Función de menú
 def menu( ):
     print("Ingrese una opción:")
@@ -28,21 +27,33 @@ def lista_videos (videos_youtube):
 
 def orden1_videos(videos_youtube):
     videos_youtube.sort()
-    print(videos_youtube)
+    return videos_youtube
 
 def orden2_videos(videos_youtube):
     videos_youtube.short(reverse=True)
+    return videos_youtube
 
 def añadir_video(videos_youtube):
+    contador =0
     videos_youtube.insert()
-    print(videos_youtube, end=" ")
+    contador += 1
+    return videos_youtube
 
 def añadir_varios(videos_youtube):
+    contador=0
     n=int(input("ingrese la cantidad de videos que desea agregar: "))
     for i in  range(n):
         nombre_video=input("ingrese nombre del video: ")
+        contador+=1
         videos_youtube.append(nombre_video)
+    return videos_youtube , contador
+
+def eliminar(videos_youtube, contador):
+    if contador == 0:
+        print("No hay videos")
+    else:
+        pos=int(input("Ingrese la pocisión del video que desea eliminar: "))
+        videos_youtube.pop(pos)
     return videos_youtube
 
-def eliminar(videos_youtube):
-    pos= int(input("inserte el número de la pocisión que desea eliminar: "))
+
