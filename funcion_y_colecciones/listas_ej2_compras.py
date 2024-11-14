@@ -5,53 +5,62 @@ Descripción:
 Listas ejercicio 2
 """
 
+
 nombres=[ ]
 cantidades= [ ]
-
+contador_producto=0
 #Función de menú
 def menu( ):
-    print("Ingrese una opción:")
+    print()
+    print("Seleccione una opción")
     print("1: Ver lista") # nombre y cantidad
     print("2: Añadir producto a la lista")
     print("3: Eliminar producto de la lista")
     print("0: Salir")
     opcion=int(input("Ingrese la opción: "))
     return opcion
-opcion=menu()
 
 
-def ver_lista(nombres,cantidades):
-    for a in range (nombres):
-        print(nombres, end = " ")
-    for i in range (cantidades):
-        print(cantidades, end = " ")
+def ver_lista(nombres,cantidades, contador_producto):
+    contador_producto=1
+    for nombre in nombres:
+        print(f"{contador_producto}._{nombre}", end = " ")
+        contador_producto+=1
+    print()
+    contador_producto=1
+    for cantidad in cantidades:
+        print(f"{contador_producto}._{cantidad} productos", end = " ")
+        contador_producto+=1
+    print()
 
-def añadir (compras):
+def anadir ( nombres, cantidades):
     nombre=input("Ingrese nombre del producto: ")
-    nombres.append=(nombre)
+    nombres.append(nombre)
     cantidad=int(input("Ingrese la cantidad del producto: "))
-    cantidades.appentd=(cantidad)
-    return cantidades,nombres
+    cantidades.append(cantidad)
 
-def eliminar (nombres,cantidades):
+def eliminar (nombres,cantidades,contador_producto):
     pos = int(input("Ingrese la pocisión del producto que desea eliminar: "))
-    nombres.pop(pos)
-    cantidades.pop(pos)
-    return cantidades,nombres
+    nombres.pop(pos-1)
+    cantidades.pop(pos-1)
+    contador_producto-=1
+    print("Producto eliminado")
 
-while opcion !=0:
+op=1
+while op !=0:
     opcion=menu()
     if opcion==1:
-        ver_lista(nombres, cantidades)
+        ver_lista(nombres, cantidades, contador_producto)
     elif opcion==2:
-        añadir(nombres,cantidades)
+        anadir(nombres,cantidades)
+        contador_producto+=1
     elif opcion ==3:
-        eliminar(nombres, cantidades)
-    if opcion == 0:
-        opcion=0
+        eliminar(nombres, cantidades,contador_producto)
+    elif opcion == 0:
+        op=0
         print("Salió del programa")
-    else:
-        print("opción incorrecta")
+else:
+    print("opción incorrecta")
 
 
 
