@@ -3,7 +3,7 @@ Addi Toro Chavez
 27 de octubre de 2024.
 Descripción:
 Ejercicio 4 de ciclo while en python
- calculadora basica
+ calculadora básica
 '''
 
 
@@ -47,10 +47,12 @@ while op !=0:
         print(f"La exponenciación del número {numero_1} y el número {numero_2} es: {numero_1 ** numero_2} ")
     elif op == 0:
          op=0
-         print("Salio de la calculadora")
+         print("Salió de la calculadora")
     else:
         print("Acción incorrecta")
 
 """
-
+Se declara un ciclo while que mostrará el menú de opciones, el cual mostrará las opciones de operación que el usuario desea realizar.
+Posteriormente se delclaran las condiciones de opciones, y de acuerdo a la opción que el usuario desee se ejecutará la operación.
+Por último se muestra en pantalla el resultado de la operación realizada.  
 """
