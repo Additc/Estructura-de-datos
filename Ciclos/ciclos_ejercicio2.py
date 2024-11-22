@@ -4,8 +4,8 @@ Fecha: 28 de Octubre de 2024
 Descripción:
 Ejercicio suma acumulativa 2 de ciclo while en python
 '''
-numero_inicial=int(input("ingrese numero inicial: "))
-numero_final=int(input("ingrese numero final de la suma: "))
+numero_inicial=int(input("ingrese número inicial: "))
+numero_final=int(input("ingrese número final de la suma: "))
 total=0
 while numero_inicial< numero_final:
     numero_inicial += 1

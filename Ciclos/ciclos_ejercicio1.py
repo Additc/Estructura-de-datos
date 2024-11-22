@@ -4,7 +4,7 @@ Fecha: 28 de Octubre de 2024
 Descripción:
 Ejercicio suma acumulativa 1 de ciclo while en python
 '''
-# Programa que calcula la suma acumulativa de numeros
+# Programa que calcula la suma acumulativa de números
 
 numero_final=int(input("ingrese número final de la suma: "))
 contador = 0
