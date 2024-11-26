@@ -51,5 +51,6 @@ Declaro mis distintas funciones para las 4 formas de las pirámides, dependiendo
 la logicá dentro de ellas con ayuda del ciclo (for) y mandando a cada una de ella el número de filas que el usuario desea.
 
 Pido al usuario que ingrese el número de filas que desea ver en la pirámide.
+
 Por último se muestra en pantalla las 4 formas de las pirámides.
 """

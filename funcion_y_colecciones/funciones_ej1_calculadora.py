@@ -73,5 +73,6 @@ while op !=0:
 Se declaran las distintas funciones de las distintas operaciones a realizar, y a su vez una función del menú de opciones.
 Con un ciclo while establezco mis condiciones de acuerdo a las opciones seleccionadas, y en cada condición llamo a la función,
 que corresponde al caso.
+
 Posteriormente se le solicitan 2 números flotantes al usuario y se muestra el resultado de la operación.
 """
