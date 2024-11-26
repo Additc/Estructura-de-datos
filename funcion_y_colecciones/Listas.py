@@ -4,7 +4,7 @@ Fecha: 28 de Octubre de 2024
 Descripción:
 Ciclo while en python
 '''
-
+# Tienen un indice y son mutables
 # Crear una lista vacía
 alumnos =[ ]
 alumnos.append("Hector")
