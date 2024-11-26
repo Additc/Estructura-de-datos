@@ -32,3 +32,11 @@ while op != 0:
          print("Salio de la cuenta")
     else:
         print("opción incorrecta")
+
+"""
+Declaro 2 contadores, uno que acumulará y me ayudará a saber el total de mi saldo, y otro que me ayudará a saber la cantidad que
+ el usuario desea retirar.
+ Establezco mi condición while, hasta que sea difrente de cero este me mostrará el menú de opciones establecido.
+ Establezco la condiciones que se aplicarán de acuerdo a la opción seleccionada por el usuario.
+ De acuerdo a la opción seleccionada, se mostrará en pantalla el saldo, el dinero retirado, o alguna opción incorrecta.
+"""
