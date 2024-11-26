@@ -62,5 +62,16 @@ while op !=0:
 else:
     print("opción incorrecta")
 
+"""
+Declaro 2 listas, una almacenara los nombres de los productos y otra la cantidad de estos productos y además de un contador
+para saber el número de productos que existen dentro de la lista.
 
+Defino mis funciones a utilizar, de menú, ver lista, añadir, y eliminar productos, mandando a cada una de ellas mis 2 listas 
+además del contador de productos, e implementando la lógica necesaria en cada función.
+
+Con un ciclo (while), establezco mi conidicion que se ciclará hasta presionar el número 0, llamo a mi menú de opciones
+y establezco demás condiciones de acuerdo a la opción que el usuario desee realizar y dentro de ellas llamo a mis funciones
+mandandoles las 2 listas y el contador.
+
+"""
 

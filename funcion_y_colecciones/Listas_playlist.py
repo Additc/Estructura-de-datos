@@ -21,9 +21,11 @@ def menu( ):
     opcion=int(input("Ingrese la opción: "))
     return opcion
 
-def lista_videos (videos_youtube):
+def lista_videos (videos_youtube,contador_videos):
+    contador_videos=1
     for videos in videos_youtube:
-        print(videos, end = ", ")
+        print(f"{contador_videos}._{videos}", end=" ")
+        contador_videos+=1
     print()
 def orden1_videos(videos_youtube):
     videos_youtube.sort()
@@ -45,19 +47,17 @@ def añadir_varios(videos_youtube,contador_videos):
         contador_videos+=1
 
 def eliminar(videos_youtube,contador_videos):
-    if contador_videos == 0:
-        print("No hay videos")
-    else:
         pos=int(input("Ingrese la pocisión del video que desea eliminar: "))
         videos_youtube.pop(pos-1)
         contador_videos-=1
+        print("Video eliminado")
 
 
 op=1
 while op !=0:
     opcion=menu()
     if opcion==1:
-        lista_videos(videos_youtube)
+        lista_videos(videos_youtube,contador_videos)
     elif opcion==2:
         orden1_videos(videos_youtube)
     elif opcion ==3:
@@ -74,3 +74,13 @@ while op !=0:
         print("Salió del programa")
 else:
     print("opción incorrecta")
+
+"""
+Declaro una lista que almacenará el nombre de los videos, y también un contador para conocer el número de estos.
+Defino mis funciones para las distintas opciones del menú, recibiendo en ellas dependiendo el caso la lista y el contador
+de videos.
+Se implementa la lógica necesaria con las funciones (pop, sort, appent) en cada una de ellas.
+
+Establezco mi ciclo while y dentro de él establezco mis condiciones de acuerdo a las opciones y llamo a las funciones
+previamente definidas en donde corresponden. 
+"""
