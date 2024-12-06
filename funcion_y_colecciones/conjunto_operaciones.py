@@ -6,9 +6,10 @@ Ejercicio 26 de ciclo while en python
  calculadora básica
 '''
 from random import randint
+import random
 #numeros aleatorios en una lista
-randint(1,4)->numero
-ganador=random.choice(lista)
+randint(1,4)
+ganador=random.choice( )
 
 
 conjunto_A={11,7,10,9,5,1,15,7}
