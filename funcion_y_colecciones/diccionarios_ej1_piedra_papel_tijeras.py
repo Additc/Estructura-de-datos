@@ -15,12 +15,12 @@ contador_empate=0
 def menu():
     print()
     print("**Juego de piedra, papel y tijera**")
-    print("Ingrese una opcion para empezar con el juego:")
+    print("Ingrese una opción para comenzar con el juego:")
     print("1) Piedra")
     print("2) Papel")
     print("3) Tijera")
     print("0) Salir")
-    opcion=int(input("Ingrese una opcion: "))
+    opcion=int(input("Ingrese una opción: "))
     return opcion
 
 #Defino la función de las opciones del usuario y del cpu
@@ -43,7 +43,7 @@ while op != 0:
         print()
         opcion=menu()
     if opcion == 0:
-        print("El juego termino")
+        print("El juego terminó")
         break
     #Se define el diccionario, que establece la lógica del juego.
     piedra_papel_tijeras={('PIEDRA','TIJERA'):"JUGADOR",
