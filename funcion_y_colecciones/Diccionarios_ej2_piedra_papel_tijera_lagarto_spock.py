@@ -99,7 +99,13 @@ while op != 0:
                             ('PAPEL', 'SPOCK'): "JUGADOR",
                             ('SPOCK', 'PAPEL'): "CPU",
                             ('SPOCK', 'PIEDRA'): "JUGADOR",
-                            ('PIEDRA', 'SPOCK'): "CPU"}
+                            ('PIEDRA', 'SPOCK'): "CPU",
+                            ('PAPEL', 'PAPEL'): "EMPATE",
+                            ('SPOCK', 'SPOCK'): "EMPATE",
+                            ('TIJERA', 'TIJERA'): "EMPATE",
+                            ('LAGARTO', 'LAGARTO'): "EMPATE",
+                            ('PIEDRA', 'PIEDRA'): "EMPATE"
+                          }
     #Se obtiene la elección del jugador, y del CPU
     eleccion_usuario, eleccion_cpu = jugador(opcion)
 
