@@ -25,11 +25,9 @@ def test():
 
     print("¿Cuál de las siguientes opciones odiarías más que la gente te llamara?")
     contador = 0
-    # Muestra las opciones
     for pregunta in Diccionario_de_preguntas['pregunta1']:
         contador +=1
         print(f"{contador}) {pregunta}")
-    # Lectura de datos
     opcion = int(input("\nSelecciona una opción :"))
 
     print("Después de tu muerte ¿qué es lo que más le gustaría que hiciera la gente cuando escuche su nombre?")
@@ -46,6 +44,13 @@ def test():
         print(f"{contador}) {pregunta}")
     opcion3= int(input("\nSelecciona una opción :"))
 
+    print("¿Cómo te definirías en una sola palabra?")
+    contador = 0
+
+    for pregunta in Diccionario_de_preguntas['pregunta4']:
+        contador += 1
+        print(f"{contador}) {pregunta}\n")
+    opcion4 = int(input("\nSelecciona una opción :"))
 
 op = 1
 while op != 0:
