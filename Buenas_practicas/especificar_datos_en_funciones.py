@@ -2,7 +2,6 @@
 Nombre: Addi Toro Chavez
 Fecha: 8 de enero de 2025.
 Descripción: Especifícar datos en funciones.
-terminar hoy
 '''
 
 def menu ():
@@ -34,6 +33,7 @@ def cadena_a_entero (cadena:str)->int|None:
         return int(cadena)
     else:
         return None
+
 
 op=1
 while op!=0:
