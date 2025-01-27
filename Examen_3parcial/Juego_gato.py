@@ -30,7 +30,7 @@ def menu ()->int:
 def tiros():
     """
     Función que muestra nuestra matriz inicial y además lleva el conteo de tiro que se llevan ejecutando
-    :return: La función no retorna nada
+    :return: La función no retorna nada.
     """
     for i in range(3):
         matriz.append([" "] * 3)

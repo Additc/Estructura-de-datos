@@ -34,7 +34,7 @@ def menu_principal():
                 break
             elif opcion == 0:
                 opcion = 0
-                print("Salió del programa")
+                print("Salió del programa.")
                 break
             else:
                 print("opcion incorrecta")

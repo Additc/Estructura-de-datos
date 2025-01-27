@@ -33,8 +33,8 @@ def multiplicar(*vargs)->float:
 
 def cadena_a_flotante (cadena):
     """
-    Función que convierte una cadena a un flotante
-    :param cadena: Cadena introducida por el usuario
+    Función que convierte una cadena a un flotante.
+    :param cadena: Cadena introducida por el usuari.o
     :return: Número flotante
     """
     no_puntos=cadena.count(".")

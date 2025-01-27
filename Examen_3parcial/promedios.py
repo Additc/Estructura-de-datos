@@ -110,7 +110,7 @@ if __name__ == '__main__':
             promedio(alumnos)
         elif opcion == 0:
             opcion = 0
-            print("Salió del programa")
+            print("Salió del programa.")
             break
         else:
             print("opción incorrecta")

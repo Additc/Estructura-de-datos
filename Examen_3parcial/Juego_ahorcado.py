@@ -47,7 +47,7 @@ def mostrar_palabra(palabra_secreta, letras_adivinadas):
 def jugar_ahorcado():
     """
     Función que valida que se ingrese una letra, además de que esta no sea repetida, y también
-    muestra si la palabra ha sido adivinada o en su dado caso ah perdido el juego
+    muestra si la palabra ha sido adivinada o en su dado caso ah perdido el juego.
     :return:
     """
     palabra_secreta=obtener_palabra_aleatoria()

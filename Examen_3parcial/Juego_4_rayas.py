@@ -20,7 +20,7 @@ esta_jugando_CPU = False
 def solicitar_numero():
     while True:
         try:
-            posible_entero=int(input("Ingrese numero de columna: "))
+            posible_entero=int(input("Ingrese número de columna: "))
             return posible_entero
         except ValueError:
             continue

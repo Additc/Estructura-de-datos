@@ -14,7 +14,7 @@ def animacion_texto(texto, velocidad=0.1, color=Fore.RED):
 
 def imprimir_mensaje():
 # Ejemplo de uso
-    mensaje = ("BIENVENIDOS AL MENU PRINCIPAL DE JUEGOS PARA CONTINUAR SELECCIONE UNA DE LAS OPCIONES\n"
+    mensaje = ("BIENVENIDOS AL MENU PRINCIPAL DE JUEGOS PARA CONTINUAR SELECCIONE UNA DE LAS OPCIONES \n"
                "=======================================\n"
                "J U E G O     D E L    A H O R C A D O\n"
                "=======================================\n"
