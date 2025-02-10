@@ -20,8 +20,8 @@ def menu_principal_juegos():
         print("1) Juego del ahorcado")
         print("2) Juego del Gato")
         print("3) Juego de 4 en rayas")
-        print("4) Juego de carrera de caballos")
-        print("5) Juego de batalla naval")
+        print("4) Batalla naval")
+        print("5) Carrera de caballos")
         print("0) Salir")
         opcion = (input("Teclea la opción que desea realizar: "))
         while not opcion.isnumeric():
