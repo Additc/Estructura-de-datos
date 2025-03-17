@@ -4,12 +4,7 @@ Integrantes: Héctor Jésus Méndez Santiago, Jésus Alberto Ramírez Salinas y 
 Fecha: 2 de febrero de 2025.
 Descripción: Módulo correspondiente al juego carrera de caballos.
 '''
-"""
-Nombre: Héctor Jesús Méndez Santiago
-Fecha: 7 de febrero del 2025
-Descripción: Este es el mulo correspondiente al juego de
-             carrera de caballos con barajas españolas.
-"""
+
 from random import randint
 import random
 

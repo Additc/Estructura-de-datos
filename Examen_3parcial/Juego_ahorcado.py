@@ -2,13 +2,13 @@ from random import random
 import random
 
 
-def menu ():
+def menu_ahorcado():
     """
     Menú que muestra el menú de opciones
     :return: La opción seleccionada por el usuario
     """
     print()
-    print("Juego del ahorcado con animales")
+    print("Juego del ahorcado")
     print("1) Jugar")
     print("0) Salir")
     opcion=(input("Teclea la opción que desea realizar: "))
@@ -19,13 +19,71 @@ def menu ():
     return opcion
 
 
+def dibujos(bandera) -> None:
+    """
+    Dibuja las diferentes etapas del ahorcado según el número de errores
+    :param bandera: Número que indica en qué etapa del juego estamos
+    :return: No retorna nada
+    """
+    if bandera == 1:
+        print("  _______     ")
+        print(" |/      |     ")
+        print(" |            ")
+        print(" |            ")
+        print(" |            ")
+        print(" |            ")
+        print("_|___         ")
+    elif bandera == 2:
+        print("  _______     ")
+        print(" |/      |     ")
+        print(" |      O     ")
+        print(" |            ")
+        print(" |            ")
+        print(" |            ")
+        print("_|___         ")
+    elif bandera == 3:
+        print("  _______     ")
+        print(" |/      |     ")
+        print(" |      O     ")
+        print(" |     /|\    ")
+        print(" |            ")
+        print(" |            ")
+        print("_|___         ")
+    elif bandera == 4:
+        print("  _______     ")
+        print(" |/      |     ")
+        print(" |      O     ")
+        print(" |     /|\    ")
+        print(" |      |     ")
+        print(" |            ")
+        print("_|___         ")
+    elif bandera == 5:
+        print("  _______     ")
+        print(" |/      |     ")
+        print(" |      O     ")
+        print(" |     /|\    ")
+        print(" |      |      ")
+        print(" |     /       ")
+        print("_|___         ")
+    else:
+        print("  _______     ")
+        print(" |/      |     ")
+        print(" |      O     ")
+        print(" |     /|\    ")
+        print(" |      |      ")
+        print(" |     / \     ")
+        print("_|___         ")
+
+        print("\nTus vidas se acabaron.")
+
+
 def obtener_palabra_aleatoria()->None:
     """
     Función que obtiene una palabra de un animal aleatorio
     :return: La palabra aleatoria obtenida
     """
-    palabras=["tigre","leopardo","capibara","perro","armadillo","gato","serpiente","hormiga","pajaro",
-              "ballena","leon","jirafa","pato","raton","conejo","aguila","orca","foca","pinguino","foca"]
+    palabras=["mouse","teclado","computadora","programar","botella","gato","amarillo","espejo","ventana",
+              "ballena","leon","sillon","paraguas","luna","estrella","pelota","cama","rojo","cielo","regla"]
     palabra_aleatoria=random.choice(palabras)
     return palabra_aleatoria
 
@@ -53,7 +111,11 @@ def jugar_ahorcado():
     palabra_secreta=obtener_palabra_aleatoria()
     letras_adivinadas=[]
     intentos=5
+    bandera=1
+    bandera2=1
+    errores=1
 
+    dibujos(bandera)
     while intentos>0:
         mostrar_palabra(palabra_secreta,letras_adivinadas)
         letra=input("Ingrese una letra: " )
@@ -69,19 +131,33 @@ def jugar_ahorcado():
         if letra in palabra_secreta:
             letras_adivinadas.append(letra)
             if set(letras_adivinadas) == set(palabra_secreta):
-                print("Felicidades, has acertado la palabra!")
+                print(f"Felicidades, has acertado la palabra!, la palabra era {palabra_secreta}")
                 break
         else:
             intentos-=1
             print(f"Letra incorrecta. Te quedan {intentos} intentos.")
-    if intentos == 0:
-        print(f"Has perdido. La palabra secreta era: {palabra_secreta}")
-        print()
+            if intentos == 4:
+                bandera=2
+                dibujos(bandera)
+            if intentos == 3:
+                bandera=3
+                dibujos(bandera)
+            if intentos == 2:
+                bandera=4
+                dibujos(bandera)
+            if intentos == 1:
+                bandera=5
+                dibujos(bandera)
+            if intentos == 0:
+                bandera=6
+                dibujos(bandera)
+                print(f"Has perdido. La palabra secreta era: {palabra_secreta}")
+                print()
 
 if __name__ == '__main__':
     op=1
     while op!=0:
-        opcion = menu()
+        opcion = menu_ahorcado()
         if opcion==1:
             jugar_ahorcado()
         elif opcion == 0:

@@ -32,7 +32,7 @@ def mostrar_tablero(tablero: list) -> None:
     """
     print("\n")
     for fila in tablero:
-        print(" | ".join(fila))  # El join es para unir una lista con sublistas
+        print(" | ".join(fila))  # El join es una función para unir una lista con sublistas
         print("-" * 29)
     print("\n")
 
