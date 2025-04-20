@@ -2,7 +2,7 @@
 Nombre: Addi Toro Chávez
 Fecha: 19 de Octubre de 2024
 Descripción:
-Entrada de datos por consola para interacturar con el usuario con valores dinámicos.
+Entrada de datos por consola para interactuar con el usuario con valores dinámicos.
 '''
 
 # Comentar sobre la función input.
@@ -13,12 +13,12 @@ numero1_cadena = input("Introduce un número decimal: ") # Los datos introducido
 numero2_cadena = input("Introduce otro número decimal: ")
 """
 En la proxima instrucción se intentar hacer la suma de los 2 datos introducidos sin embargo esta acción no se puede realizar 
-ya que estan guardadas como cadenas.
+ya que están guardadas como cadenas.
 """
 resultado_cadena = numero1_cadena + numero2_cadena
 print()
-print(" ****  Recibir número sin un casting de varibles  ****")
-# Muestra en pantalla la comcatenación de ambas cadenas.
+print(" ****  Recibir número sin un casting de variables  ****")
+# Muestra en pantalla la concatenación de ambas cadenas.
 print(f"El resultado de {numero1_cadena} y {numero2_cadena} es: {resultado_cadena}")
 
 nose_float = float(input("Ingresa un número: "))
@@ -30,6 +30,6 @@ numero2_float = float(numero2_cadena)#El número ingresado por el usuario lo con
 resultado_float = numero1_float + numero2_float # Verificar qué es lo que realiza de esta manera y compáralo.
 # Realizamos la suma de los 2 números flotantes y en este caso se puede realizar correctamente por que ahora ambos  son decimales y no cadenas.
 print()
-print(" ****  Casting de varibles  ****")
+print(" ****  Casting de variables  ****")
 # Al imprimir, se imprimirá la suma de los números y no los concatenará.
 print(f"El resultado de {numero1_float} y {numero2_float} es: {resultado_float}")
